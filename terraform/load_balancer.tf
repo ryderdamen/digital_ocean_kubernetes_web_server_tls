@@ -13,4 +13,10 @@ resource "digitalocean_loadbalancer" "ingress_load_balancer" {
 
   }
 
+  lifecycle {
+      ignore_changes = [
+        forwarding_rule,
+    ]
+  }
+
 }

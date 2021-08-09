@@ -1,0 +1,9 @@
+digitalocean_token = "your_token_here"
+
+cluster_name = "tutorial-1"
+region = "tor1"
+letsencrypt_email = "youremail@gmail.com"
+top_level_domains = [
+  "nachos.tutorials.yourdomain.com",
+  "tacos.tutorials.yourdomain.com",
+]
