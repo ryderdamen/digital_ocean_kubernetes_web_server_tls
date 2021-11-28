@@ -9,6 +9,11 @@ variable cluster_name {
   type        = string
 }
 
+variable cluster_version {
+  description = "The version of the kubernetes cluster to create"
+  type        = string
+}
+
 variable region {
   description = "The digital ocean region slug for where to create resources"
   type        = string
