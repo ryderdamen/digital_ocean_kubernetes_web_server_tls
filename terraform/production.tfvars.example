@@ -1,6 +1,7 @@
 digitalocean_token = "your_token_here"
 
 cluster_name = "tutorial-1"
+cluster_version = "1.21.5-do.0"
 region = "tor1"
 letsencrypt_email = "youremail@gmail.com"
 top_level_domains = [
